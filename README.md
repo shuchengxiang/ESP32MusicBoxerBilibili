@@ -21,13 +21,13 @@
 2. 修改设备端代码（src/UDPMessageController.cpp）中的SVR_ADDRESS字段，将IP改为自己的服务器地址
 3. 将设备端代码编译、烧录至esp32开发板
 4. 将蓝牙设备打开搜索状态靠近esp32开发板，开发板会自动连接最近的蓝牙设备并记录
-5. 修改代码server/bilibili_operate.py中的HEADERS.cookie字段，可以参照此种方式获取https://github.com/SocialSisterYi/bilibili-API-collect/blob/master/docs/search/search_request.md，直接用浏览器访问 https://bilibili.com,然后打开开发者工具，直接把那段很长的cookie字段放入其中即可
+5. 修改代码server/bilibili_operate.py中的HEADERS.cookie字段，可以参照此种方式获取https://github.com/SocialSisterYi/bilibili-API-collect/blob/master/docs/search/search_request.md ，直接用浏览器访问 https://bilibili.com ,然后打开开发者工具，直接把那段很长的cookie字段放入其中即可
 6. 启动服务端，在服务端目录运行python server/server.py
 7. 设备端正常连接服务端之后，会根据设备id在server/data目录下生成一个json文件，在服务器端直接修改这个文件保存即可在设备端生效，字段描述如下：
     1. "volume": 设备音量，填写一个数字
     2. "paused": 是否暂停1为暂停， 0为播放
-    3. "music_url": 暂时无用,
-    4. "server_url": 局域网中的服务端IP端口，如http://192.168.137.1:8180,
+    3. "music_url": 暂时无用
+    4. "server_url": 局域网中的服务端IP端口，如http://192.168.137.1:8180
     5. "bvid": B站Bvid号，填写后播放Bvid对应的视频音频,
     6. "keyword": 搜索关键字，填写后自动播放B站搜索结果的第一条结果"洛天依 歌行四方"
 
