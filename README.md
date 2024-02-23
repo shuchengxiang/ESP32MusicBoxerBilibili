@@ -32,7 +32,7 @@
     6. "keyword": 搜索关键字，填写后自动播放B站搜索结果的第一条结果"洛天依 歌行四方"
 
 ## 参考
-本程序主要参考https://github.com/noolua/BLPlayer项目，进行了部分裁剪与修改，原项目有更多的功能可以参考，大家可以移步至此项目查看更多功能，感谢大神的贡献。其余也参考了BLPlayer项目中的参考项目，在下方再次列出：
+本程序主要参考https://github.com/noolua/BLPlayer 项目，进行了部分裁剪与修改，原项目有更多的功能可以参考，大家可以移步至此项目查看更多功能，感谢大神的贡献。其余也参考了BLPlayer项目中的参考项目，在下方再次列出：
 1. https://github.com/SocialSisterYi/bilibili-API-collect
 2. https://github.com/pschatzmann/ESP32-A2DP
 3. https://github.com/earlephilhower/ESP8266Audio
