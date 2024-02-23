@@ -1,0 +1,10 @@
+{
+    "name": "music_box",
+    "state_to_set": true,
+    "volume": 40,
+    "paused": 0,
+    "music_url": "",
+    "server_url": "http://192.168.137.1:8180",
+    "bvid": "",
+    "keyword": "洛天依 歌行四方"
+}
